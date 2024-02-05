@@ -10,6 +10,25 @@ import r1 from '../assets/19.jpg'
 import r2 from '../assets/192.jpg'
 import r3 from '../assets/193.jpg'
 import r4 from '../assets/194.jpg'
+
+// twists 2020
+import ta1 from '../assets/ta1.jpg'
+import ta2 from '../assets/ta2.jpg'
+import ta3 from '../assets/ta3.jpg'
+import ta4 from '../assets/ta4.jpg'
+import bg from '../assets/bg.jpg'
+
+import tb1 from '../assets/tb1.jpg'
+import tb2 from '../assets/tb2.jpg'
+import tb3 from '../assets/tb3.jpg'
+import tb4 from '../assets/tb4.jpg'
+
+// courage 2021
+import c1 from '../assets/c1.jpg'
+import c2 from '../assets/c2.jpg'
+import c3 from '../assets/c3.jpg'
+import c4 from '../assets/c4.jpg'
+import c5 from '../assets/c5.jpg'
 const Home = () => {
     return (
         <div>
@@ -76,8 +95,8 @@ const Home = () => {
 
                 <p>As we all know, hard work never goes waste and that&#39;s why I stand 1st in my entire village including 2nd in my entire school. That feeling was really amazing and unexplainable. <br /> <br />
 
-                    Honestly, I had set target for 90+ percent but I scored only 88% . I was sad inside for not scoring 90+ . hahaha 😂 <br />
-                    Because for those students who scores 90+ UP Govt gives them enough amount of  money for 11th and 12th (20k rupees) . But I was smiling with 88%. ( Greedy Mind! 🤣 )
+                    Honestly, I had set target for 90+ percent but I scored only 88% . I was sad inside for not scoring 90+ . <br />
+                    Because for those students who scores 90+ UP Govt gives them enough amount of  money for 11th and 12th (20k rupees) . But I was smiling with 88%.
                 </p>
             </div>
 
@@ -86,8 +105,56 @@ const Home = () => {
                 <p>1. God gives more than luck if the intention is right. </p>
                 <p>2. Pain doesn&#39;t destory you, it creates you.</p>
                 <p>3. Honestly builds strong character.</p>
+
+                <div className="gallery">
+                    <img src={ta1} alt="the main reason" />
+                    <img src={ta3} alt="the main reason" />
+                    <img src={ta2} alt="the main reason" />
+                    <img src={ta4} alt="the main reason" />
+                </div>
+
+                <p>On 2020, I started thinking about money, health, wealth and world class success. How to become extremely super successful? I used to watch youtube videos, read blogs and read my first book named <b>&#34; Rich Dad And Poor Dad &#34; by Robert Kiyoshaki</b> .</p>
+
+                <img src={bg} alt="" className='hm' />
+
+                <p>I was very active on Facebook and talk with foreigners in English. I had a lot friends from different countries on 2020.</p>
+
+                <p>On 2020, The government took our land for a canal and gave 2x of land&#39;s price. My grandmother got a big amount of money. She divided between her two sons (my father and his brother). <br /> <br />
+
+                    First of all my father bought double the land in another location. He gifted me a laptop for my 2019s result on 10th.
+                </p>
+
+                <div className="gallery">
+                    <img src={tb1} alt="the main reason" />
+                    <img src={tb3} alt="the main reason" />
+                    <img src={tb2} alt="the main reason" />
+                    <img src={tb4} alt="the main reason" />
+                </div>
+
+                <p>I suggested to my father for saving enough amount so that I and my brother can complete our studies well and become whatever we want to be. <br /> <br /> Unfortunately, same period of time, I was with a temperary one . My father noticed my all activities the way I used to spend time, the amount of time I study and many more. He observed and rejected my suggestion.</p>
             </div>
 
+            <div className="txt-container">
+                <h3>#Courage - Year 2021</h3>
+                <p>Finally, My father built our house with rest of money. Because the value of a good house, meaning of a good house and need of a good house, only they can feel who they do not have. We had felt that very well. I was happy with his decision. </p>
+                <img src={c2} alt="" className='hm' />
+                <p>In our house, paiting and wiring could not be completed on that time. I decided to go anywhere where I get any job and continue my software engineering journey.</p>
+                <div className="gallery">
+                    <img src={c5} alt="the main reason" />
+                    <img src={c1} alt="the main reason" />
+                    <img src={c3} alt="the main reason" />
+                    <img src={c4} alt="the main reason" />
+                </div>
+
+                <p>I joined a Tally Class (Accounting Software) at hometown so that whenever I go in city. I can get computer related jobs easily in city.</p>
+                <p>Before I complete Tally Course, my friends informed me about a job in Bangalore. I did not think a moment and directly confirmed to go there. .... </p>
+
+            </div>
+
+            <div className="txt-container">
+                <h3>#Consistency - Year 2024</h3>
+            </div>
+            
             <footer>
                 <h3>#BeingRajdev</h3>
                 <p>The part of courage is simple consistency</p>
