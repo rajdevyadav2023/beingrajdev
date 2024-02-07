@@ -334,7 +334,7 @@ const Home = () => {
             </div>
             <div className="txt-container">
                 <h3>#Consistency - Year 2024</h3>
-                <p className='tj'>Finally, I dedicated myself to my parents and brother again on 2024. I just want to love my family and myself. I have realized, girls are girls, Ex and Crush both had many options as me that&#39;s they left me but my family has only me.. I love you so much maa, papa and bhai.  I will be successful not immediately but definitely. ❤️‍🔥</p>
+                <p className='tj'>Finally, I dedicated myself to my parents and brother again on 2024. I just want to love my family and myself. I have realized, girls are girls, we can not understad girls in entire life. So, stop the mindset of finding true love and then being successful. First be successful, you will find true love automatically. I love you so much maa, papa and bhai.  I will be successful not immediately but definitely. ❤️‍🔥</p>
                 <div className="txt-container">
                     <video src={vid2} controls></video>
                 </div>
