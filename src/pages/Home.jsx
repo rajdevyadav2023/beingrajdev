@@ -53,9 +53,12 @@ import hp from '../assets/hp.jpg'
 import hp2 from '../assets/hp2.jpg'
 import hp3 from '../assets/hp3.jpg'
 import hp4 from '../assets/hp4.jpg'
-import rk from '../assets/rk.jpg'
 import xy from '../assets/xy.jpg'
 
+
+// video 
+import vid from '../assets/vid.mp4'
+import vid2 from '../assets/vid2.mp4'
 
 const Home = () => {
     return (
@@ -86,20 +89,21 @@ const Home = () => {
                 <p>State : Uttar Pradesh</p>
                 <p>Country : India</p>
             </div>
+
+
             <div className="txt-container">
                 <img src={r3} alt="" className='sm' />
-            </div>
-            <div className="txt-container">
+
                 <h3>#Behind - Never Give Up</h3>
                 <p className='tj'>Hi ❤️‍🔥, this is Rajdev Yadav and I&#39;m gonna share my personal journey from <b>Nobody</b> to <b>Somebody</b>. Keep your eyes open and read it. It will definitely help you to fight your battles yourself alone without any complaints with courage, confidence, determination and high level of positive optimistic energy.</p>
                 <p className='tj'>So in my story, my main motivation is my family, my mother, my father and my sweet darling hero (Brother). I grown up in very amazing environment where problems tried to show me down and I kept on keeping on my head higher and higher.</p>
-               
-                    <img src={r2} alt="" className='sm' />
-               
+
+                <img src={r2} alt="" className='sm' />
+
                 <p className='tj'>I&#39;m very thankful to god for giving this life, this family, this hardship and a lot of obstacles to craft my character. I&#39;m ready to sacrifice millions of millions times myself for my family, my mother, my father and stubborn hero (Brother).</p>
-                
-                    <img src={r4} alt="" className='sm' />
-              
+
+                <img src={r4} alt="" className='sm' />
+
                 <p className='tj'>There is a life before love and after love. I&#39;m sharing both lives here with my personal journey for being something and achieving something. Love can heal us as well as kill us depends upon the person whom we love. Love plays major role in my life for teaching me life lessons which I will always remember for lifetime. </p>
                 <p className='tj'>The family is the test of freedom; because the family is the only thing that the free man makes for himself and by himself.</p>
                 <div className="gallery">
@@ -115,15 +119,15 @@ const Home = () => {
 
                 <p className='tj'>I used to do photocopy and learn how to do another tasks like - printing wedding cards, doing online registration.</p>
 
-                <p className='tj'>On that shop, I daily used to observe those children who came for print-outs related summer assignments and they spoke English very quickly while they were same as me ( 16s old girls / boys ) . Inside my soul and heart wanted to school too but my mind used to think that I would not go because fees... ... ... </p>
+                <p className='tj'>On that shop, I daily used to observe those children who came for printouts related summer assignments and they spoke English very quickly while they were same as me ( 16s old girls / boys ) . Inside my soul and heart wanted to school too but my mind used to think that I would not go because fees... ... ... </p>
                 <img src={r1} alt="" className='sm' />
 
-                <p className='tj'>As the days passed, the shop owner started treating badly and use bad words. He did not give me enough respect as I used to deserved. I did not had any option because I really wanted to learn their arts, their works and their profession. hahaha..😂 I listened all those insulting words silently because I wanted to learn all those works which they used to do for their business.</p>
+                <p className='tj'>As the days passed, the shop owner started treating badly and use bad words. He did not give me enough respect as I deserved. I did not had any option because I really wanted to learn their arts, their works and their profession. hahaha..😂 I listened all those insulting words silently because I wanted to learn all those works which they used to do for their business.</p>
                 <img src={bg2} alt="" className='hm' />
 
                 <p className='tj'>One day, a life insurance company agent came for photocopy of his clients documents. After his work he asked my name and educational background, he adviced me , <b>&#34; Beta! Zindgi abhi bahut badi hai, jao abhi thoda aur padh lo. Agar abhi padh loge toh isse acha kaam kar skte ho. &#34;</b>
                     <br /> <br />
-                    Honestly, I became so speechless that time because I knew my family situations and his office was on 1st floor of that building and that shop was on ground floor. I was afraid if I did not leave that job , then he might say daily same line to me.  <br /> <br />
+                    Honestly, I became so speechless that time because I knew my family situations and his office was on 1st floor of that building and that shop was on ground floor. I was afraid if I did not leave that job , then he might say daily same line to me again and again.  <br /> <br />
 
                     Finally, I stopped going from next day and never went again nor thought to go again. Because his words totally changed my mind and mindset. 👊
                 </p>
@@ -151,7 +155,7 @@ const Home = () => {
 
 
                     Honestly, I had set target for 90+ percent but I scored only 88% . I was sad inside for not scoring 90+ . <br />
-                    Because for those students who scores 90+ UP Govt gives them enough amount of  money for 11th and 12th (20k rupees) . I took admission in one Govt. College for 11th and 12th . This school was 12km away from my home in  town.
+                    Because for those students who score 90+ UP Govt gives them enough amount of  money for 11th and 12th (20k rupees) . I took admission in one Govt. College for 11th and 12th .
                 </p>
             </div>
 
@@ -235,7 +239,7 @@ const Home = () => {
                 <p className='tj'>I and he met on the last day of 12th. It was practical for physics. We all classmates started to talk each other and ask for future decisions and steps. I found that he was one only boy who wanted to pursue BCA too. I smiled and went near to him. His village was just 3km aways from mine. After few days, we became very close friend.</p>
 
                 <img src={bg7} alt="" className='hm' />
-                <p className='tj'>I and my friend decided not to do any degrees because it cost a lot and we just focus on skills what we need to start our own company. We planned to go New Delhi so that we could learn coding and do part time jobs. But we didn&#39;t have any skills.So we joined Tally Course Class at hometown. Tally is software for company management or small business management. We wanted to do job related to computer that is why we chose to learn Tally Course. </p>
+                <p className='tj'>I and my friend decided not to do any degrees because it cost a lot and we just focus on skills what we need to start our own company. We planned to go New Delhi so that we could learn coding and do part time jobs. But we didn&#39;t have any skills.So we joined Tally Course Class at hometown. Tally is software for company management or small business management. We wanted to do computer related job that is why we chose to learn Tally Course. </p>
 
                 <p className='tj'>In that institute, we met one another boy. He was Nepali and also having Indian Citizenship. He became our very close friend. Now we were 3 boys. With same mindset and same level dream.</p>
                 <img src={bg6} alt="" className='hm' />
@@ -248,7 +252,7 @@ const Home = () => {
                     We worked 5 months there. It was 12 hrs job and we used to do overtime (day-night continue). It was mine first job so I do it with passion and motivation because we had planned to learn coding in Hyderabad after saving enough. So that we can afford fees and room expenses.
                 </p>
 
-                <p className='tj'>During those days my <b>true love</b> started showing me her <b>true color</b>. Nothing teaches us better than <b>fears, tears and years</b>. I made mistakes and my mistakes made me. In short - &#34; It feels like hell, I wanted to come back at home but I had made decision, so I did not want to go home with empty hands at any cost no matter how hard it gets and feels. &#34;</p>
+                <p className='tj'>During those days my <b>true love</b> started showing me her <b>true color</b>. Nothing teaches us better than <b>fears, tears and years</b>. I made mistakes and my mistakes made me. In short - &#34; It was the worst year of life 2021-2022. &#34;</p>
 
 
 
@@ -256,7 +260,7 @@ const Home = () => {
 
             <div className="txt-container">
                 <h3>#Reward Of Blind Love - Year 2022</h3>
-                <p className='tj'>After saving enough, we came Hyderabad. I joined Coding Class and my friends came to meet with their family. I made sacrifices so that I could keep my promises and fulfill my dreams. </p>
+                <p className='tj'>After saving enough, we came Hyderabad. I joined Coding Class and my friends went to meet with their family and I did not go to meet mine family. I made sacrifices so that I could keep my promises and fulfill my dreams. </p>
                 <p className='tj'>I could not complete course because of my personal choices, decisions and mistakes as well as mental state. I failed to learn coding there, but I learnt something that I would never forget for my lifetime.</p>
 
                 <p className='tj'>I had completely understood that I walked the wrong path. The path seperated me from my family. I did not break my promises. I kept holding even my soul and heart wanted to leave and break all those promises.</p>
@@ -277,9 +281,8 @@ const Home = () => {
 
                 <p className='tj'>I joined call center on 3rd March 2023 and after few days gym and started taking proper diets again. </p>
 
-                <p className='tj'>I was very gentle boy. But in call center they used to laugh at me for not showing interest in girls and not talking too much with them.</p>
+                <p className='tj'>I was very gentle boy. But in call center they used to laugh at me for not showing interest in girls and not talking too much with them. They irritated me a lot and I became very aggresive nature boy because I had pain inside me and they kept on joking with me and irritating me. </p>
 
-                <p className='tj'>After few days, I became very aggresive nature boy. Because I had to call &#34;Sir&#34; to guys who they really did not deserve it.They were very cheap level mindset, they used to do mostly  s*xual discussion and running behind girls and their beauty.  </p>
                 <img src={cb} alt="" className='sm' />
 
                 <p className='tj'>After few days, she (ex) came back again and she started talking again. She started supporting and encouraging me again same way. I thought that she had changed now but I was wrong because she was same.</p>
@@ -311,7 +314,7 @@ const Home = () => {
 
                 <p className='tj'>In my heart, I had extremely heartfelt love for her because I loved her all whole beings and the way she used to talk and the way she used  give examples and everything. <br /> <br />
 
-                    In my mind, my past was running, because no matter how much you love someone, if you are not enough well financially, you will lose your love . In India, girl&#39;s family does not see the boys love for their girls, they see only the position that boys hold and the success they have, then they allow to do love marriage, I did not have my own phone, I did not have a lot fancy dresses, my call center salary was so low. There were a lot of things those create self-doubts in my mind.
+                    In my mind, my past was running, because no matter how much you love someone, if you are not enough financially well, you will lose your love . In India, girl&#39;s family does not see the boys love for their girls, they see only the position that boys hold and the success they have, then they allow to do love marriage, I did not have my own phone, I did not have a lot fancy dresses, my call center salary was so low. There were a lot of things those create self-doubts in my mind.
                 </p>
 
                 <img src={bg9} alt="" className='hm' />
@@ -325,20 +328,17 @@ const Home = () => {
 
                     One negative thought came in my mind, I decided not to come online no matter what happened. But It was the beginning of the end of my heartfelt love story. </p>
 
+                <p className='tj'>I tried to explain everything but it was so late. She got hurt by me. Her trust got broken for me. She did not want listen me while I tried many times.</p>
+
+                <video src={vid} controls></video>
             </div>
             <div className="txt-container">
                 <h3>#Consistency - Year 2024</h3>
-                <p className='tj'>I tried to explain everything but it was so late. She got hurt by me. Her trust got broken for me. She did not want listen me while I tried many times.</p>
+                <p className='tj'>Finally, I dedicated myself to my parents and brother again on 2024. I just want to love my family and myself. I have realized, girls are girls, Ex and Crush both had many options as me that&#39;s they left me but my family has only me.. I love you so much maa, papa and bhai.  I will be successful not immediately but definitely. ❤️‍🔥</p>
+                <div className="txt-container">
+                    <video src={vid2} controls></video>
+                </div>
 
-                <p className='tj'>But I have been changed myself and my things those were the reason of self doubts. In January, I purchased new phone,  one book and return my friend&#39;s phone with almost half price of phone so that I can remove all reasons of self-doubts . I want to feel positive, motivated and rich again. <br /> <br />
-
-                    I have changed my hobbies - I read book less and I make time to watch family based movies. So that I can improve my relationship with her . I am waiting for her one forgiveness but she is not ready to forgive me. </p>
-
-                <img src={rk} alt="" className='hm' />
-
-                <p className='tj'>I do daily prayers for solving all our misunderstanding. But I do not know, when will god listen? when will god solve our relationship issues? <br /> <br />
-
-                    Only I and God know, How much I really love her. How heartily I do prayers for her. But I don&#39;t want to let her to stress or to think too much. because overthinking kills our happiness, peace of mind and productivity. I do not message her but I daily miss her so much. <b>Krishna ji, kya garib hona paap hai? yaa garibi me pyar karna paap hai? life me kya ho rha hai kuch samjh me nhi aa rha. himmat nhi hota dubara message krne ko... aur raha bhi nhi ja rha bina message kiye...</b></p>
 
 
             </div>

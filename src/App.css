@@ -67,6 +67,11 @@ width: 100%;
 .txt-container .tj{
     text-align: justify;
 }
+.txt-container video{
+    display: block;
+    width: 300px;
+    margin: .5rem auto;
+}
 footer{
     padding: 2rem;
     text-align: center;
@@ -91,5 +96,10 @@ footer{
         display: block;
         width: 100%;
         border-radius: 3px;
+    }
+    .txt-container video{
+        display: block;
+        width: 100%;
+        margin: .5rem auto;
     }
 }
