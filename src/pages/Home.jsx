@@ -38,6 +38,7 @@ import bg6 from '../assets/bg6.jpg'
 import bg7 from '../assets/bg7.jpg'
 import bg8 from '../assets/bg8.jpg'
 import bg9 from '../assets/bg9.jpg'
+import bg10 from '../assets/bg10.jpg'
 
 
 // coming back 
@@ -59,6 +60,8 @@ import xy from '../assets/xy.jpg'
 // video 
 import vid from '../assets/vid.mp4'
 import vid2 from '../assets/vid2.mp4'
+import vid3 from '../assets/vid3.mp4'
+import vid4 from '../assets/vid4.mp4'
 
 const Home = () => {
     return (
@@ -246,14 +249,15 @@ const Home = () => {
 
                 <p className='tj'>Before we complete Tally Course, one night that Nepali friend informed us about one job in Bangaluru. I said to go there because I really wanted to do anything (any job) for money that time. Bangaluru is  2000km+ away from our hometown. Without any delay, without any fear, we went next day at nearest railway station and purchased tickets for Bangaluru.</p>
 
-                <p className='tj'>I was just 19s year old boy that time. I did not feel fear because I loved that girl with my heart and soul. I was feeling very positive and motivated. Because she always showed her support, love, care and encouragement to me. We 3 friends left home for  Bangaluru on 18th October 2021.   </p>
+                <p className='tj'>I was just 19s year old boy that time. I did not feel fear because I loved that girl with my heart and soul. I was feeling very positive and motivated. Because she always showed her support, love, care and encouragement to me. We 3 friends left home for  Bangaluru.   </p>
 
                 <p className='tj'>
                     We worked 5 months there. It was 12 hrs job and we used to do overtime (day-night continue). It was mine first job so I do it with passion and motivation because we had planned to learn coding in Hyderabad after saving enough. So that we can afford fees and room expenses.
                 </p>
 
-                <p className='tj'>During those days my <b>true love</b> started showing me her <b>true color</b>. Nothing teaches us better than <b>fears, tears and years</b>. I made mistakes and my mistakes made me. In short - &#34; It was the worst year of life 2021-2022. &#34;</p>
+                <p className='tj'>During those days my <b>true love</b> started showing me her <b>true color</b>. Nothing teaches us better than <b>fears, tears and years</b>. I made mistakes and my mistakes made me. In short - <b>&#34; My heart and soul wanted to come back home but I had made those choices, those decisions, and those mistakes and that&#39;s why my mind didn&#39;t let me to come. I suffered a lot. &#34;</b> </p>
 
+                <video src={vid3} controls></video>
 
 
             </div>
@@ -262,30 +266,33 @@ const Home = () => {
                 <h3>#Reward Of Blind Love - Year 2022</h3>
                 <p className='tj'>After saving enough, we came Hyderabad. I joined Coding Class and my friends went to meet with their family and I did not go to meet mine family. I made sacrifices so that I could keep my promises and fulfill my dreams. </p>
                 <p className='tj'>I could not complete course because of my personal choices, decisions and mistakes as well as mental state. I failed to learn coding there, but I learnt something that I would never forget for my lifetime.</p>
+                <video src={vid4} controls></video>
 
-                <p className='tj'>I had completely understood that I walked the wrong path. The path seperated me from my family. I did not break my promises. I kept holding even my soul and heart wanted to leave and break all those promises.</p>
+                <p className='tj'>I had completely understood that I walked the wrong path. The path seperated me from my family, from my passion, from my mental peace. I did not break my promises. I kept holding even my soul and heart wanted to leave and break all those promises.</p>
 
-                <p className='tj'>I came back home on 4rd November 2022. I was totally different myself. I was so silent. No smile, No six abs, No Fitness, No Motivation same like - &#34;a walking dead body&#34;.  </p>
+                <p className='tj'>Neither I wanted to live in Hyderabad nor I wanted to come back home without results. Because everyone was expecting some different results from me like 2019s, I was topper in village and everyone know me well. I worried a lot about - my answers when they would ask me about my one year journey, about my one year results.  </p>
 
+<p className="tj">I had nothing to tell and everything what I had I wanted to hide only. I came back at home after one year. I was totally different myself. I was so silent. No smile, No six abs, No Fitness, No Motivation same like - <b>&#34;a walking dead body&#34;</b> . </p>
             </div>
 
             <div className="txt-container">
-                <h3>#Being Heartless - Year 2023</h3>
-                <p className='tj'>I fall sick very badly as I started feeling well I continued learning coding again from YouTube and Educational Websites at home.</p>
-                <p className='tj' >I decided not to repeat anything what that was reason of my failure. I left my those 2 friends and stopped talking with them.</p>
+                <h3>#Being Loser - Year 2023</h3>
+                <p className='tj'>I fall sick very badly. I could not stand up nor walk and I was in bed almost 1 month as I started feeling well I continued learning coding again from YouTube and Educational Websites at home.</p>
+                <p className='tj' >I decided not to repeat anything what that was reason of my failure.</p>
 
-                <p className='tj'>I contacted with my current room partners because I had met with them in Hyderabad during coding classes . One of them lives just 3km away from my village.</p>
 
-                <p className='tj'>I remembered my childhood and set my family as my motivation again, on 18th February 2023, I came here Noida. </p>
+                <p className='tj'>I remembered my childhood and set my family as my motivation again. I left home again and came another city - <b>Noida</b> with same dreams, same mindset ad same energy.</p>
                 <img src={bg8} alt="" className='hm' />
 
-                <p className='tj'>I joined call center on 3rd March 2023 and after few days gym and started taking proper diets again. </p>
+                <p className='tj'>I joined call center on 3rd March 2023 and after few days  started gym and  taking proper diets again. </p>
+                <p className='tj'>After few days, she (ex) came back again and she started talking again. She started supporting and encouraging me again same way. I thought that she had changed now but I was wrong because she was same.</p>
+                <img src={bg10} alt="" className='hm' />
 
                 <p className='tj'>I was very gentle boy. But in call center they used to laugh at me for not showing interest in girls and not talking too much with them. They irritated me a lot and I became very aggresive nature boy because I had pain inside me and they kept on joking with me and irritating me. </p>
 
                 <img src={cb} alt="" className='sm' />
 
-                <p className='tj'>After few days, she (ex) came back again and she started talking again. She started supporting and encouraging me again same way. I thought that she had changed now but I was wrong because she was same.</p>
+
 
                 <div className="gallery">
                     <img src={cb} alt="the main reason" />
@@ -294,13 +301,16 @@ const Home = () => {
                     <img src={cb4} alt="the main reason" />
                 </div>
 
-                <p className='tj'>She left me again same way with same behavior pattern and same execuses. But I was sad because I destoryed another year for same reason in same manner and with purpose. I did not feel broken. I felt relax and peaceful. But my motivation was down again. My confidence was low. I felt so down and negative those day for not making those progress, growths, results that I had set for 2023 .</p>
+                <p className='tj'>She left me again same way with same behavior pattern and same execuses. But I was sad because I destoryed another year for same reason in same manner and with purpose. My motivation was down again. My confidence was low. I felt so down and so negative about myself and  my future durig those days for not making those progress, growths, results that I had set for 2023 .</p>
                 <img src={cb3} alt="" className='sm' />
 
-                <p className='tj'>Before I forgot anything, I met one another girl. At our first talk, I felt something in my heart and suddenly I sent her fried request. She was an Indian and also Hindu. I used to feel like - she is need of my soul because I feel so relax with her . I did not know why ? But I used to feel a godly power and a relaxing positive energy. </p>
+                <p className='tj'>Before I forgot anything, I met one another girl. At our first talk, I felt something in my heart and suddenly I sent her friend request. She was an Indian and also Hindu. I used to feel like - she is need of my soul because I feel so relax with her . I did not know why ? But I used to feel a godly power and a relaxing positive energy. I started smiling again and being positive about myself and my future. </p>
                 <img src={hp} alt="" className='sm' />
 
-                <p className='tj'>when she did not come online, I used to miss her a lot and wait her to talk because I really fall in love with her personality. But as she come online, I suddenly used to go offline because of fear to tell the truth about myself. Because I have weakness of speaking the truth. I cannot make fool others nor I can cheat others. I ignored her a lot and I represseted myself in front her like - I do not have feelings or desires of loving someone or being loved by someone.  </p>
+                <p className='tj'>I had crush on her from the first day when we met at first time. So when she did not come online, I used to miss her a lot and wait her to talk because her one word or one message was enough for me to keep my smile, my positivity and my motivation for whole day.</p>
+
+                <p className='tj'>But as she come online, I suddenly used to go offline because of fear to tell the truth about myself. Because I have weakness of speaking the truth. I cannot make fool others nor I can cheat others. I ignored her a lot and I represseted myself in front her like - I do not have feelings or desires of loving someone or being loved by someone.</p>
+                <p className='tj'>   Honestly I had started loving her secretly without telling her about it. I used to feel like - she was healing my all wounds, my broken heart and my wounded soul.   </p>
                 <div className="gallery">
                     <img src={hp} alt="the main reason" />
                     <img src={hp2} alt="the main reason" />
@@ -308,13 +318,15 @@ const Home = () => {
                     <img src={hp4} alt="the main reason" />
                 </div>
 
-                <p className="tj">I wanted to keep this <b>my one sided love story</b> secret and I used shared my daily experiences with her very openly and happily. Because I feel very safe with her. Yes, I was heart broken but still her presence always keeps me smiling and happy all time.<br /> <br />
+                <p className='tj'>I did not have any solid results so I had low confidence and I always tried to keep secret my feelings at all. My family background, my personal broken experience and having no results created more self doubts in my mind for myself. </p>
+
+                <p className="tj">But I used shared my daily experiences with her very openly and happily. Because I feel very safe with her. Yes, I was heart broken but still her presence always made me smiling and happy at all time.<br /> <br />
                     I did prayers for her to become my life partner and walk with me on the road of peace, progress, positive, productivity and success.</p>
                 <img src={hp4} alt="" className='sm' />
 
                 <p className='tj'>In my heart, I had extremely heartfelt love for her because I loved her all whole beings and the way she used to talk and the way she used  give examples and everything. <br /> <br />
 
-                    In my mind, my past was running, because no matter how much you love someone, if you are not enough financially well, you will lose your love . In India, girl&#39;s family does not see the boys love for their girls, they see only the position that boys hold and the success they have, then they allow to do love marriage, I did not have my own phone, I did not have a lot fancy dresses, my call center salary was so low. There were a lot of things those create self-doubts in my mind.
+                    In my mind, my past was running, because no matter how much you love someone, if you are not enough financially well, you will lose your love .Specially in India, girl&#39;s family does not see the boys love for their girls, they see only the position that boys hold and the success they have, then they allow to do love marriage, I did not have my own phone, I did not have a lot fancy clothes, my call center salary was so low. There were a lot of things those create self-doubts in my mind.
                 </p>
 
                 <img src={bg9} alt="" className='hm' />
