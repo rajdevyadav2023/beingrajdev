@@ -60,6 +60,7 @@ width: 100%;
 .txt-container .hm{
     width: 100%;
     border-radius: 3px;
+    margin-top: 1rem;
 }
 .txt-container .sm{
     display: none;
@@ -67,11 +68,7 @@ width: 100%;
 .txt-container .tj{
     text-align: justify;
 }
-.txt-container video{
-    display: block;
-    width: 300px;
-    margin: .5rem auto;
-}
+
 footer{
     padding: 2rem;
     text-align: center;

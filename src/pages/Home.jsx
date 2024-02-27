@@ -1,6 +1,8 @@
 import rjdv from '../assets/rjdv.jpg'
 // behind never give up
-
+import me from '../assets/me.jpeg';
+import men from '../assets/men.jpeg';
+import family from '../assets/family.jpeg';
 
 const Home = () => {
     return (
@@ -33,7 +35,9 @@ const Home = () => {
           
             <div className="txt-container">
                 <h3>#Consistency - 2024</h3>
-                <div className="tj">An effort to make today better than yesterday.</div>
+                <img src={family} alt="consistency" className="hm" />
+                <img src={men} alt="consistency" className="hm" />
+                <img src={me} alt="consistency" className="hm" />
                 
 
 
